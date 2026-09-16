@@ -1,0 +1,107 @@
+{
+  "account": "pedrosettec",
+  "subjectLabels": {
+    "quotes": "Quotes",
+    "repost": "Reposts",
+    "questions": "Q&A",
+    "photo": "Photos",
+    "contact": "Contact",
+    "religion": "Religion",
+    "habits": "Habits",
+    "books": "Books",
+    "mental-health": "Mental health"
+  },
+  "stories": [
+    {
+      "id": "2026-09-16-frame1",
+      "date": "2026-09-16",
+      "time": "18:45 ET",
+      "account": "pedrosettec",
+      "title": "Steven Hayes quote — values vs how you spend your days",
+      "subjects": [
+        "quotes",
+        "repost"
+      ],
+      "image": "/stories/2026-09-16-frame1.jpg",
+      "frame": 1
+    },
+    {
+      "id": "2026-09-16-frame2",
+      "date": "2026-09-16",
+      "time": "18:45 ET",
+      "account": "pedrosettec",
+      "title": "Wristwatch + “Abra seu coração” sticker",
+      "subjects": [
+        "questions",
+        "photo"
+      ],
+      "image": "/stories/2026-09-16-frame2.jpg",
+      "frame": 2
+    },
+    {
+      "id": "2026-09-16-frame3",
+      "date": "2026-09-16",
+      "time": "18:45 ET",
+      "account": "pedrosettec",
+      "title": "Email reply: ps@pedrosette.com",
+      "subjects": [
+        "questions",
+        "contact"
+      ],
+      "image": "/stories/2026-09-16-frame3.jpg",
+      "frame": 3
+    },
+    {
+      "id": "2026-09-16-frame4",
+      "date": "2026-09-16",
+      "time": "18:45 ET",
+      "account": "pedrosettec",
+      "title": "Religion and women (Bible / New Testament)",
+      "subjects": [
+        "questions",
+        "religion"
+      ],
+      "image": "/stories/2026-09-16-frame4.jpg",
+      "frame": 4
+    },
+    {
+      "id": "2026-09-16-frame5",
+      "date": "2026-09-16",
+      "time": "18:45 ET",
+      "account": "pedrosettec",
+      "title": "Cellphone addiction (Frankl paradoxical intention)",
+      "subjects": [
+        "questions",
+        "habits"
+      ],
+      "image": "/stories/2026-09-16-frame5.jpg",
+      "frame": 5
+    },
+    {
+      "id": "2026-09-16-frame6",
+      "date": "2026-09-16",
+      "time": "18:45 ET",
+      "account": "pedrosettec",
+      "title": "O Adversário — lying and shame",
+      "subjects": [
+        "questions",
+        "books"
+      ],
+      "image": "/stories/2026-09-16-frame6.jpg",
+      "frame": 6
+    },
+    {
+      "id": "2026-09-16-frame7",
+      "date": "2026-09-16",
+      "time": "18:45 ET",
+      "account": "pedrosettec",
+      "title": "Mental health, relationships, Eliot",
+      "subjects": [
+        "questions",
+        "mental-health"
+      ],
+      "image": "/stories/2026-09-16-frame7.jpg",
+      "frame": 7
+    }
+  ]
+}
