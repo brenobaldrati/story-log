@@ -71,20 +71,20 @@ export default function Home() {
         </div>
 
         {/* Stories Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
           {filteredStories.map((story) => (
             <div
               key={story.id}
               onClick={() => setLightboxStory(story)}
-              className="group cursor-pointer bg-gray-900 rounded-lg overflow-hidden border border-gray-800 hover:border-gray-700 transition-all hover:shadow-xl"
+              className="group cursor-pointer bg-gray-900 rounded-lg overflow-hidden border border-gray-800 hover:border-gray-700 transition-all hover:shadow-xl max-w-[280px] mx-auto w-full"
             >
-              <div className="aspect-[5/6] relative bg-gray-800">
+              <div className="aspect-[5/6] relative bg-gray-800 w-full">
                 <Image
                   src={story.image}
                   alt={story.title}
                   fill
-                  className="object-contain"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                  className="object-cover"
+                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, (max-width: 1280px) 20vw, 280px"
                 />
               </div>
               <div className="p-4">
