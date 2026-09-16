@@ -1,0 +1,15 @@
+{
+  "name": "story-log",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "dev-server",
+      "command": "npm run dev"
+    }
+  ],
+  "ports": [
+    {
+      "port": 3000
+    }
+  ]
+}
