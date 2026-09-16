@@ -31,7 +31,7 @@ export default function Home() {
       <header className="border-b border-gray-800 bg-[#0a0a0a]/80 backdrop-blur-sm sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <h1 className="text-3xl font-bold tracking-tight">Story Log</h1>
-          <p className="text-gray-400 mt-1">@{data.account}</p>
+          <p className="text-gray-400 mt-1">{data.account}</p>
         </div>
       </header>
 
@@ -78,12 +78,12 @@ export default function Home() {
               onClick={() => setLightboxStory(story)}
               className="group cursor-pointer bg-gray-900 rounded-lg overflow-hidden border border-gray-800 hover:border-gray-700 transition-all hover:shadow-xl"
             >
-              <div className="aspect-[9/16] relative bg-gray-800">
+              <div className="aspect-[5/6] relative bg-gray-800">
                 <Image
                   src={story.image}
                   alt={story.title}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
                 />
               </div>
@@ -132,13 +132,13 @@ export default function Home() {
             className="max-w-2xl w-full"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="relative aspect-[9/16] mb-4">
+            <div className="relative aspect-[5/6] mb-4 max-w-lg mx-auto">
               <Image
                 src={lightboxStory.image}
                 alt={lightboxStory.title}
                 fill
                 className="object-contain"
-                sizes="(max-width: 768px) 100vw, 672px"
+                sizes="(max-width: 768px) 100vw, 512px"
               />
             </div>
             <div className="text-center">
