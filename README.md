@@ -56,22 +56,28 @@ To add new stories to the gallery:
 
 ## Deployment on Vercel
 
-### Option 1: Deploy via Vercel CLI
-
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Deploy
-vercel
-```
-
-### Option 2: Deploy via Vercel Dashboard
+### Recommended: Deploy via Vercel Dashboard
 
 1. Go to [vercel.com/new](https://vercel.com/new)
-2. Import this repository
-3. Vercel will auto-detect Next.js and configure the build
-4. Click "Deploy"
+2. Sign in with your GitHub account
+3. Click "Import" next to the `story-log` repository
+4. Vercel will auto-detect Next.js settings:
+   - **Framework Preset**: Next.js
+   - **Build Command**: `npm run build` (auto-detected)
+   - **Output Directory**: `.next` (auto-detected)
+5. Click "Deploy"
+
+The site will be live at `https://story-log-<random>.vercel.app` in ~30 seconds.
+
+### Alternative: Deploy via Vercel CLI
+
+```bash
+# Login to Vercel (one-time)
+npx vercel login
+
+# Deploy to production
+npx vercel --prod
+```
 
 No additional configuration needed - Vercel automatically handles Next.js projects.
 
